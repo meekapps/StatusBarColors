@@ -1,0 +1,9 @@
+A little hack to effectively change the color of the UIStatusBar.
+
+It actually just sets the status bar to "Transparent black style" and sets the 
+background color of a UIView placed behind the status bar. Note that because
+the Status Bar is black with alpha 0.5, the color that appears is quite a bit
+darker than the UIColor.
+
+You can get pretty close to the actual UIColor by using RGB colors instead 
+of the UIColor constants.

@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4103C69714D7C18400827479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4103C69614D7C18400827479 /* UIKit.framework */; };
+		4103C69914D7C18400827479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4103C69814D7C18400827479 /* Foundation.framework */; };
+		4103C69B14D7C18400827479 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4103C69A14D7C18400827479 /* CoreGraphics.framework */; };
+		4103C6A114D7C18400827479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4103C69F14D7C18400827479 /* InfoPlist.strings */; };
+		4103C6A314D7C18400827479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103C6A214D7C18400827479 /* main.m */; };
+		4103C6A714D7C18400827479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103C6A614D7C18400827479 /* AppDelegate.m */; };
+		4103C6AA14D7C18400827479 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4103C6A914D7C18400827479 /* ViewController.m */; };
+		4103C6AD14D7C18400827479 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4103C6AB14D7C18400827479 /* ViewController.xib */; };
+		4103C6B414D7C19400827479 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4103C6B314D7C19400827479 /* icon57.png */; };
+		4103C6B614D7C19600827479 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4103C6B514D7C19600827479 /* icon114.png */; };
+		4103C6BC14D7C9AA00827479 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4103C6BB14D7C9AA00827479 /* placeholder.png */; };
+		4103C6BE14D7C9E900827479 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4103C6BD14D7C9E900827479 /* QuartzCore.framework */; };
+		4103C6C014D7CC0100827479 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4103C6BF14D7CC0100827479 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4103C69214D7C18400827479 /* StatusBarColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4103C69614D7C18400827479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4103C69814D7C18400827479 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4103C69A14D7C18400827479 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4103C69E14D7C18400827479 /* StatusBarColors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusBarColors-Info.plist"; sourceTree = "<group>"; };
+		4103C6A014D7C18400827479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4103C6A214D7C18400827479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4103C6A414D7C18400827479 /* StatusBarColors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatusBarColors-Prefix.pch"; sourceTree = "<group>"; };
+		4103C6A514D7C18400827479 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4103C6A614D7C18400827479 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4103C6A814D7C18400827479 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4103C6A914D7C18400827479 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4103C6AC14D7C18400827479 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4103C6B314D7C19400827479 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		4103C6B514D7C19600827479 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		4103C6BB14D7C9AA00827479 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		4103C6BD14D7C9E900827479 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4103C6BF14D7CC0100827479 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4103C68F14D7C18400827479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4103C6BE14D7C9E900827479 /* QuartzCore.framework in Frameworks */,
+				4103C69714D7C18400827479 /* UIKit.framework in Frameworks */,
+				4103C69914D7C18400827479 /* Foundation.framework in Frameworks */,
+				4103C69B14D7C18400827479 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4103C68714D7C18400827479 = {
+			isa = PBXGroup;
+			children = (
+				4103C6BF14D7CC0100827479 /* Default@2x.png */,
+				4103C6B514D7C19600827479 /* icon114.png */,
+				4103C6B314D7C19400827479 /* icon57.png */,
+				4103C69C14D7C18400827479 /* StatusBarColors */,
+				4103C69514D7C18400827479 /* Frameworks */,
+				4103C69314D7C18400827479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4103C69314D7C18400827479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4103C69214D7C18400827479 /* StatusBarColors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4103C69514D7C18400827479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4103C6BD14D7C9E900827479 /* QuartzCore.framework */,
+				4103C69614D7C18400827479 /* UIKit.framework */,
+				4103C69814D7C18400827479 /* Foundation.framework */,
+				4103C69A14D7C18400827479 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4103C69C14D7C18400827479 /* StatusBarColors */ = {
+			isa = PBXGroup;
+			children = (
+				4103C6A514D7C18400827479 /* AppDelegate.h */,
+				4103C6A614D7C18400827479 /* AppDelegate.m */,
+				4103C6A814D7C18400827479 /* ViewController.h */,
+				4103C6A914D7C18400827479 /* ViewController.m */,
+				4103C6AB14D7C18400827479 /* ViewController.xib */,
+				4103C69D14D7C18400827479 /* Supporting Files */,
+			);
+			path = StatusBarColors;
+			sourceTree = "<group>";
+		};
+		4103C69D14D7C18400827479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4103C6BB14D7C9AA00827479 /* placeholder.png */,
+				4103C69E14D7C18400827479 /* StatusBarColors-Info.plist */,
+				4103C69F14D7C18400827479 /* InfoPlist.strings */,
+				4103C6A214D7C18400827479 /* main.m */,
+				4103C6A414D7C18400827479 /* StatusBarColors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4103C69114D7C18400827479 /* StatusBarColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4103C6B014D7C18400827479 /* Build configuration list for PBXNativeTarget "StatusBarColors" */;
+			buildPhases = (
+				4103C68E14D7C18400827479 /* Sources */,
+				4103C68F14D7C18400827479 /* Frameworks */,
+				4103C69014D7C18400827479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBarColors;
+			productName = StatusBarColors;
+			productReference = 4103C69214D7C18400827479 /* StatusBarColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4103C68914D7C18400827479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4103C68C14D7C18400827479 /* Build configuration list for PBXProject "StatusBarColors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4103C68714D7C18400827479;
+			productRefGroup = 4103C69314D7C18400827479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4103C69114D7C18400827479 /* StatusBarColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4103C69014D7C18400827479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4103C6A114D7C18400827479 /* InfoPlist.strings in Resources */,
+				4103C6AD14D7C18400827479 /* ViewController.xib in Resources */,
+				4103C6B414D7C19400827479 /* icon57.png in Resources */,
+				4103C6B614D7C19600827479 /* icon114.png in Resources */,
+				4103C6BC14D7C9AA00827479 /* placeholder.png in Resources */,
+				4103C6C014D7CC0100827479 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4103C68E14D7C18400827479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4103C6A314D7C18400827479 /* main.m in Sources */,
+				4103C6A714D7C18400827479 /* AppDelegate.m in Sources */,
+				4103C6AA14D7C18400827479 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4103C69F14D7C18400827479 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4103C6A014D7C18400827479 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4103C6AB14D7C18400827479 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4103C6AC14D7C18400827479 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4103C6AE14D7C18400827479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4103C6AF14D7C18400827479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4103C6B114D7C18400827479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarColors/StatusBarColors-Prefix.pch";
+				INFOPLIST_FILE = "StatusBarColors/StatusBarColors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4103C6B214D7C18400827479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarColors/StatusBarColors-Prefix.pch";
+				INFOPLIST_FILE = "StatusBarColors/StatusBarColors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4103C68C14D7C18400827479 /* Build configuration list for PBXProject "StatusBarColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4103C6AE14D7C18400827479 /* Debug */,
+				4103C6AF14D7C18400827479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4103C6B014D7C18400827479 /* Build configuration list for PBXNativeTarget "StatusBarColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4103C6B114D7C18400827479 /* Debug */,
+				4103C6B214D7C18400827479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4103C68914D7C18400827479 /* Project object */;
+}
