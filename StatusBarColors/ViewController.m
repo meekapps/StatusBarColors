@@ -104,8 +104,13 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    statusBarBG.frame = CGRectMake(0, 
+                                   0 - self.navigationController.navigationBar.frame.size.height - [UIApplication sharedApplication].statusBarFrame.size.height, 
+                                   self.view.frame.size.width, 
+                                   [UIApplication sharedApplication].statusBarFrame.size.height);
+    
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
 }
 
 #pragma mark - UITableView
